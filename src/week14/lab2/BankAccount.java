@@ -16,7 +16,6 @@ public class BankAccount {
             //do an error message
             System.out.println("Deposit must be greater than zero");
         }
-
     }
 
     public void withdraw(double withdrawAmount){
