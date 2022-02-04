@@ -1,4 +1,4 @@
-package week15.lab2;
+package week15.lab3;
 
 public class BankAccount {
     private String accountNumber;
@@ -7,10 +7,6 @@ public class BankAccount {
     public BankAccount(String accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
-    }
-
-    public double getBalance() {
-        return balance;
     }
 
     public void deposit(double depositAmount){
@@ -27,6 +23,10 @@ public class BankAccount {
         }else{
             System.out.println("Withdraw value greater than zero");
         }
+    }
+
+    public double getBalance() {
+        return balance;
     }
 
     @Override
