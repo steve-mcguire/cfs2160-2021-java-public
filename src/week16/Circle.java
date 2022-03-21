@@ -4,8 +4,7 @@ public class Circle {
     private double radius;
     private String colour;
 
-    public Circle() {
-    }
+    public Circle(){}
 
     public Circle(double radius, String colour) {
         this.radius = radius;
@@ -26,5 +25,10 @@ public class Circle {
                 "raduis=" + radius +
                 ", colour='" + colour + '\'' +
                 '}';
+    }
+
+    public static void main(String[] args) {
+        Circle bob = new Circle(100, "Bob");
+        System.out.println(bob);
     }
 }
