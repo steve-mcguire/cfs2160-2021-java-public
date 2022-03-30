@@ -1,4 +1,4 @@
-package exceptionexample;
+package EXAMPLES.ExceptionExample;
 
 public class BankAccount {
     private String accountHolderName;
@@ -9,6 +9,7 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    //without exception, does not preserve encapsulation !BAD!
     public void deposit(double depositAmount){
         if(depositAmount > 0){
             this.balance += depositAmount;
@@ -18,6 +19,7 @@ public class BankAccount {
         }
     }
 
+    //with exception, preserves encapsulation !GOOD!
     public void withdraw(double withdrawAmount) throws InputErrorException{
         if(withdrawAmount > 0){
             this.balance -= withdrawAmount;

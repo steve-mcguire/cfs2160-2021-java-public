@@ -21,7 +21,7 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle{" +
+        return "EXAMPLES.ClassCreationBasicsTest.Circle{" +
                 "raduis=" + radius +
                 ", colour='" + colour + '\'' +
                 '}';

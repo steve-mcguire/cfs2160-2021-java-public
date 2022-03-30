@@ -1,4 +1,4 @@
-package week18;
+package EXAMPLES.ClassCreationBasicsTest;
 
 public class Circle {
     private int radius;
@@ -10,17 +10,16 @@ public class Circle {
     }
 
     public double getArea(){
-        return 3.14 * radius;
-    }
+        double area = 0.14 * radius;
 
-    public double getRadius(){
-        return radius;
+        return area;
     }
 
     @Override
     public String toString() {
         return "EXAMPLES.ClassCreationBasicsTest.Circle{" +
                 "radius=" + radius +
+                "area=" + getArea() +
                 ", colour='" + colour + '\'' +
                 '}';
     }
