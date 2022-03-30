@@ -1,4 +1,4 @@
-package EXAMPLES.ExceptionExample;
+package EXAMPLES.ExceptionDemo;
 
 //custom class for exception
 public class InputErrorException extends Exception{

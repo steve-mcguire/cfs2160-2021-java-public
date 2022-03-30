@@ -1,4 +1,4 @@
-package EXAMPLES.ExceptionExample;
+package EXAMPLES.ExceptionDemo;
 
 public class BankAccount {
     private String accountHolderName;

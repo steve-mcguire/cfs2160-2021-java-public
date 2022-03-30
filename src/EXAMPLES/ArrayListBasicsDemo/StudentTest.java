@@ -1,4 +1,4 @@
-package EXAMPLES.ArrayListBasicsTest;
+package EXAMPLES.ArrayListBasicsDemo;
 
 import java.util.ArrayList;
 

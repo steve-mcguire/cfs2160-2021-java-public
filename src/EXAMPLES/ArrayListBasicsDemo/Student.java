@@ -1,4 +1,4 @@
-package EXAMPLES.ArrayListBasicsTest;
+package EXAMPLES.ArrayListBasicsDemo;
 
 public class Student {
     private String name;

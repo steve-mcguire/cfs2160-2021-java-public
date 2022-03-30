@@ -1,4 +1,4 @@
-package EXAMPLES.scanner;
+package EXAMPLES.ScannerDemo;
 
 public class HelloName {
     public HelloName(){}

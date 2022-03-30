@@ -1,4 +1,4 @@
-package EXAMPLES.PrintingCurrency;
+package EXAMPLES.PrintingCurrencyDemo;
 
 import java.text.NumberFormat;
 import java.util.Locale;

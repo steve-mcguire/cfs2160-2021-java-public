@@ -1,4 +1,4 @@
-package EXAMPLES.ClassCreationBasicsTest;
+package EXAMPLES.ClassCreationBasicsDemo;
 
 public class CircleTest {
     public static void main(String[] args) {
