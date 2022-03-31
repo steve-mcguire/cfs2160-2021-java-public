@@ -42,17 +42,20 @@ public class Student extends Person{
 
     @Override
     public String display() {
-        StringBuilder sb = new StringBuilder();
 
         String r = String.format("Name: %-15s | Email: %-20s | Course: %-15s | Student ID %-12s", super.getName(),
                 super.getEmail(), this.getCourse(), this.getStudentID());
-
-        sb.append(r);
+        /*StringBuilder sb = new StringBuilder();
+        sb.append(this.getName()).append(" ")
+                .append(this.getEmail())
+                .append(" ")
+                .append(this.getStudentID())
+                .append(" ")
+                .append(this.getCourse());
         for(Module m : modules){
-            sb.append("\n");
+            sb.append("\n\t");
             sb.append(m.display());
-        }
-        //sb.append("\n");
-        return sb.toString();
+        }*/
+        return r;
     }
 }

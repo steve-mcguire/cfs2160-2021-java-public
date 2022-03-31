@@ -27,7 +27,9 @@ public class Tutor extends Person {
 
     @Override
     public String display() {
-        return String.format("Name: %-15s | Email: %-20s | Office: %-15s | Course %-12s", super.getName(),
-                super.getEmail(), this.getOffice(), this.getTaughtCourse());
+        return this.getName() + " " +
+                this.getEmail() + " " +
+                this.getOffice() + " " +
+                this.getTaughtCourse();
     }
 }
