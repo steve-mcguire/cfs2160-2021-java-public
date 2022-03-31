@@ -10,6 +10,6 @@ public class Module {
     }
 
     public String display(){
-        return this.name + " " + this.grade;
+        return String.format("%13s %-8s", this.name, this.grade);
     }
 }
